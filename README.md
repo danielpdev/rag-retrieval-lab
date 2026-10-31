@@ -6,6 +6,12 @@ Lexical, dense and hybrid retrieval on a labeled English corpus.
 
 **Role focus:** RAG / Search / Evaluation. **Status:** working local portfolio implementation, with synthetic data.
 
+## Demo
+
+![How RAG Retrieval Lab works](docs/demo.gif)
+
+Edited replay of captured CLI outputs in deterministic fixture mode. This is not live model inference. [Full recording](docs/demo.mp4). Rebuild with `./scripts/render_gif.sh` (FFmpeg required).
+
 ## The engineering decision
 
 The same English relevance labels evaluate lexical overlap, MiniLM dense retrieval and reciprocal-rank fusion. Ranking failures are retained alongside Recall@5 and MRR.
