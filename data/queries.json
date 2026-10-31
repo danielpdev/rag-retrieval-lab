@@ -1,0 +1,38 @@
+[
+  {
+    "query": "How many days do I have for a refund?",
+    "relevant": [
+      "refund"
+    ]
+  },
+  {
+    "query": "I forgot my password",
+    "relevant": [
+      "password"
+    ]
+  },
+  {
+    "query": "How do administrators export CSV data?",
+    "relevant": [
+      "export"
+    ]
+  },
+  {
+    "query": "When does enterprise support respond?",
+    "relevant": [
+      "sla"
+    ]
+  },
+  {
+    "query": "How do I cancel a subscription?",
+    "relevant": [
+      "cancel"
+    ]
+  },
+  {
+    "query": "When are deleted account backups removed?",
+    "relevant": [
+      "retention"
+    ]
+  }
+]

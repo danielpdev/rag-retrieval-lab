@@ -1,0 +1,290 @@
+{
+  "mode": "local",
+  "python": "3.12.13",
+  "recorded_at": "2026-10-31T13:43:01.011573+00:00",
+  "elapsed_seconds": 35.657,
+  "result": {
+    "passed": true,
+    "methods": [
+      {
+        "method": "lexical",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "failures": [],
+        "cases": [
+          {
+            "query": "How many days do I have for a refund?",
+            "ranking": [
+              "refund",
+              "retention",
+              "sla",
+              "cancel",
+              "export",
+              "password"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          },
+          {
+            "query": "I forgot my password",
+            "ranking": [
+              "password",
+              "cancel",
+              "export",
+              "refund",
+              "retention",
+              "sla"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          },
+          {
+            "query": "How do administrators export CSV data?",
+            "ranking": [
+              "export",
+              "retention",
+              "cancel",
+              "password",
+              "refund",
+              "sla"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          },
+          {
+            "query": "When does enterprise support respond?",
+            "ranking": [
+              "sla",
+              "cancel",
+              "export",
+              "password",
+              "refund",
+              "retention"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          },
+          {
+            "query": "How do I cancel a subscription?",
+            "ranking": [
+              "cancel",
+              "export",
+              "password",
+              "refund",
+              "retention",
+              "sla"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          },
+          {
+            "query": "When are deleted account backups removed?",
+            "ranking": [
+              "retention",
+              "cancel",
+              "export",
+              "password",
+              "refund",
+              "sla"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          }
+        ]
+      },
+      {
+        "method": "dense",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "failures": [],
+        "cases": [
+          {
+            "query": "How many days do I have for a refund?",
+            "ranking": [
+              "refund",
+              "retention",
+              "sla",
+              "password",
+              "cancel",
+              "export"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          },
+          {
+            "query": "I forgot my password",
+            "ranking": [
+              "password",
+              "retention",
+              "cancel",
+              "refund",
+              "sla",
+              "export"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          },
+          {
+            "query": "How do administrators export CSV data?",
+            "ranking": [
+              "export",
+              "retention",
+              "cancel",
+              "refund",
+              "sla",
+              "password"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          },
+          {
+            "query": "When does enterprise support respond?",
+            "ranking": [
+              "sla",
+              "cancel",
+              "refund",
+              "password",
+              "retention",
+              "export"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          },
+          {
+            "query": "How do I cancel a subscription?",
+            "ranking": [
+              "cancel",
+              "password",
+              "refund",
+              "retention",
+              "sla",
+              "export"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          },
+          {
+            "query": "When are deleted account backups removed?",
+            "ranking": [
+              "retention",
+              "refund",
+              "cancel",
+              "password",
+              "sla",
+              "export"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          }
+        ]
+      },
+      {
+        "method": "hybrid",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "failures": [],
+        "cases": [
+          {
+            "query": "How many days do I have for a refund?",
+            "ranking": [
+              "refund",
+              "retention",
+              "sla",
+              "cancel",
+              "password",
+              "export"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          },
+          {
+            "query": "I forgot my password",
+            "ranking": [
+              "password",
+              "cancel",
+              "retention",
+              "refund",
+              "export",
+              "sla"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          },
+          {
+            "query": "How do administrators export CSV data?",
+            "ranking": [
+              "export",
+              "retention",
+              "cancel",
+              "refund",
+              "password",
+              "sla"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          },
+          {
+            "query": "When does enterprise support respond?",
+            "ranking": [
+              "sla",
+              "cancel",
+              "refund",
+              "password",
+              "export",
+              "retention"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          },
+          {
+            "query": "How do I cancel a subscription?",
+            "ranking": [
+              "cancel",
+              "password",
+              "refund",
+              "export",
+              "retention",
+              "sla"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          },
+          {
+            "query": "When are deleted account backups removed?",
+            "ranking": [
+              "retention",
+              "cancel",
+              "refund",
+              "password",
+              "export",
+              "sla"
+            ],
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "top1_correct": true
+          }
+        ]
+      }
+    ],
+    "dataset_size": 6,
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "limitation": "Tiny synthetic English corpus; metrics are descriptive, not a general quality claim."
+  }
+}
